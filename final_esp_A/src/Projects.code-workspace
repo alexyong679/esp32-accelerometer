@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "websocket_gateway",
+			"path": "../../websocket_gateway"
+		},
+		{
+			"name": "csv_esp",
+			"path": "../../csv_esp"
+		},
+		{
+			"name": "espnow_webdisplay",
+			"path": "../../espnow_webdisplay"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp",
+			"cmath": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "Projects"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "TinyML_Practice",
+			"path": "../../../Research Work/TinyML_Practice"
+		},
+		{
+			"name": "sine_wave_tinyML",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

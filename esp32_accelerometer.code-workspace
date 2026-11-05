@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../../Research Work/esp32_accelerometer"
+		},
+		{
+			"name": "front_esp32",
+			"path": "front_esp32"
+		},
+		{
+			"name": "wireless_transmission",
+			"path": "wireless_transmission"
+		},
+		{
+			"name": "test_project",
+			"path": "test_project"
+		},
+		{
+			"name": "synchronization",
+			"path": "synchronization"
+		}
+	],
+	"settings": {}
+}

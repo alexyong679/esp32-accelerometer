@@ -1,0 +1,43 @@
+<!DOCTYPE HTML><html>
+<head>
+  <title>Displaying ESP Orientation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/107/three.min.js"></script>
+</head>
+<body>
+  <div class="topnav">
+    <h1><i> ALEX's cool microcontroller stuff </i></h1>
+  </div>
+  <div class="content">
+    <div class="cards">
+      <div class="card">
+        <p class="card-title">ORIENTATION</p>
+        <p><span class="reading">X: <span id="pitch"></span> deg/s</span></p>
+        <p><span class="reading">Y: <span id="roll"></span> deg/s</span></p>
+        <p><span class="reading">Z: <span id="yaw"></span> deg/s</span></p>
+      </div>
+      <div class="card">
+        <p class="card-title">ACCELEROMETER</p>
+        <p><span class="reading">X: <span id="accX"></span> ms<sup>2</sup></span></p>
+        <p><span class="reading">Y: <span id="accY"></span> ms<sup>2</sup></span></p>
+        <p><span class="reading">Z: <span id="accZ"></span> ms<sup>2</sup></span></p>
+      </div>
+
+      <div class="card">
+        <button id="reset" onclick="resetPosition(this)">RESET POSITION</button>
+        <button id="resetX" onclick="resetPosition(this)">X</button>
+        <button id="resetY" onclick="resetPosition(this)">Y</button>
+        <button id="resetZ" onclick="resetPosition(this)">Z</button>
+      </div>
+      
+    </div>
+    <div class="cube-content">
+      <div id="3Dcube"></div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

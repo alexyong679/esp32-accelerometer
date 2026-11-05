@@ -1,0 +1,79 @@
+<!DOCTYPE HTML><html>
+<head>
+  <title>Esp Display</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/107/three.min.js"></script>
+</head>
+<body>
+  <header class="topnav">
+    <h1>ESP Display</h1>
+  </header>
+
+    <main class="content">
+
+        <!-- ESP A -->
+        <section class="esp-section" id="espA">
+            <h2>ESP A</h2>
+
+            <div class="card">
+                <h3>ORIENTATION of ESP A</h3>
+                <p><span class="reading">X: <span id="pitchA"></span> deg/s</span></p>
+                <p><span class="reading">Y: <span id="rollA"></span> deg/s</span></p>
+                <p><span class="reading">Z: <span id="yawA"></span> deg/s</span></p>
+            </div>
+
+
+            <div class="card">
+                <h3>ACCELEROMETER of ESP A</h3>
+                <p><span class="reading">X: <span id="accXA"></span> ms<sup>2</sup></span></p>
+                <p><span class="reading">Y: <span id="accYA"></span> ms<sup>2</sup></span></p>
+                <p><span class="reading">Z: <span id="accZA"></span> ms<sup>2</sup></span></p>
+            </div>
+
+            <div class="buttons">
+                <button id="reset" onclick="resetPosition('A')">RESET ESP_A</button>
+            </div>
+
+        </section>
+
+        <!-- ESP B -->
+
+        <section class="esp-section" id="espB">
+            <h2>ESP B</h2>
+
+            <div class="card">
+                <h3>ORIENTATION of ESP B</h3>
+                <p><span class="reading">X: <span id="pitchB"></span> deg/s</span></p>
+                <p><span class="reading">Y: <span id="rollB"></span> deg/s</span></p>
+                <p><span class="reading">Z: <span id="yawB"></span> deg/s</span></p>
+            </div>
+
+
+            <div class="card">
+                <h3>ACCELEROMETER of ESP B</h3>
+                <p><span class="reading">X: <span id="accXB"></span> ms<sup>2</sup></span></p>
+                <p><span class="reading">Y: <span id="accYB"></span> ms<sup>2</sup></span></p>
+                <p><span class="reading">Z: <span id="accZB"></span> ms<sup>2</sup></span></p>
+            </div>
+
+            <div class="buttons">
+                <button id="reset" onclick="resetPosition('B')">RESET ESP_A</button>
+            </div>
+
+        </section>
+
+        <!-- Cube design-->
+        <section class="cube-section">
+            <h2>3D Cube Visulalization</h2>
+            <div id="cube-container-A"></div>
+            <div id="cube-container-B"></div>
+        </section>
+        
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

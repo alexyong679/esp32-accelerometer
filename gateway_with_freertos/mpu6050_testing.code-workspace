@@ -1,0 +1,110 @@
+{
+	"folders": [
+		{
+			"path": "../mpu6050_testing"
+		},
+		{
+			"name": "ble_connection",
+			"path": "../ble_connection"
+		},
+		{
+			"name": "ble_client",
+			"path": "../ble_client"
+		},
+		{
+			"name": "hardware_testing",
+			"path": "../hardware_testing"
+		},
+		{
+			"name": "esp_wifi",
+			"path": "../esp_wifi"
+		},
+		{
+			"name": "tcp_server",
+			"path": "../tcp_server"
+		},
+		{
+			"name": "web_display",
+			"path": "../web_display"
+		},
+		{
+			"name": "espnow",
+			"path": "../espnow"
+		},
+		{
+			"name": "espnow_transmitter",
+			"path": "../espnow_transmitter"
+		},
+		{
+			"name": "espnow_receiver",
+			"path": "../espnow_receiver"
+		},
+		{
+			"name": "espnow_A",
+			"path": "../espnow_A"
+		},
+		{
+			"name": "espnow_gateway",
+			"path": "../espnow_gateway"
+		},
+		{
+			"name": "espnow_B",
+			"path": "../espnow_B"
+		},
+		{
+			"name": "gateway_with_freertos",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"atomic": "cpp",
+			"cctype": "cpp",
+			"clocale": "cpp",
+			"cmath": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"deque": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"vector": "cpp",
+			"exception": "cpp",
+			"algorithm": "cpp",
+			"functional": "cpp",
+			"iterator": "cpp",
+			"map": "cpp",
+			"memory": "cpp",
+			"memory_resource": "cpp",
+			"numeric": "cpp",
+			"optional": "cpp",
+			"random": "cpp",
+			"string": "cpp",
+			"string_view": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"fstream": "cpp",
+			"initializer_list": "cpp",
+			"iomanip": "cpp",
+			"iosfwd": "cpp",
+			"istream": "cpp",
+			"limits": "cpp",
+			"new": "cpp",
+			"ostream": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"cinttypes": "cpp",
+			"typeinfo": "cpp"
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../self_localisation"
+		},
+		{
+			"name": "testing_callibration_of_esp32",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
